@@ -28,7 +28,8 @@ good luck.
   ![App Screenshot](/img/one.png)
 
 - Editing a contact list
-  ![App Screenshot](/img/Two.png)
+
+  ![App Screenshot](/img/two.png)
 
 - Here you can see the change
   ![App Screenshot](/img/three.png)
