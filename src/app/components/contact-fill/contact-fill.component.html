@@ -1,0 +1,19 @@
+<div class="container-inputs">
+  <label>Name:
+    <input [(ngModel)]="contact.name" type="text">
+  </label>
+
+  <label for="">Phone:
+    <input [(ngModel)]="contact.phone" type="tel">
+  </label>
+
+  <label for="">DateOfBirth:
+    <input [(ngModel)]="contact.dateOfBirth" type="date" class="dateInput">
+  </label>
+
+  <label for="">isLikeCold:
+    <input [(ngModel)]="contact.isLikeCold" type="checkbox" class="checkBox">
+  </label>
+  <br>
+  <button [routerLink]="['']" class="btnClick">Save</button>
+</div>

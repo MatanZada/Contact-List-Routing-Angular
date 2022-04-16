@@ -1,0 +1,24 @@
+<div class="resultInputs">
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>dateOfBirth</th>
+        <th>isLikeCold?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active-row">
+        <td>{{contact.name}}</td>
+        <td>{{contact.phone}}</td>
+        <td>{{contact.dateOfBirth}}</td>
+        <td>{{contact | weather}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button [routerLink]="['update-contact',contact.id]" class="btnClick">Edit</button>
+  <button [routerLink]="['add-contact']" class="btnClick">Add Contact</button>
+
+
+</div>
