@@ -13,13 +13,13 @@
 - in the add contact add all the elements for adding a contact.
 - please create a pip that display a snow next to his name flak if the user likes cold and if not display a heat icon (use emojis)
 
-**Hard**
-for each contact create a link that navigate to the update with the id of the contact
-exmaple (contacts/12)
-
 # Adding FireBase to an existing project in Angular
 
 - Hosting URL: https://contact-list-hw.web.app
+
+**Hard**
+for each contact create a link that navigate to the update with the id of the contact
+exmaple (contacts/12)
 
 in the update contact coponent constractor get the url param and fill the values with the right contact (with the ID)
 
