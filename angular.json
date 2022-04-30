@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ContactList-Routing:build:production",
+            "firebaseProject": "contact-list-hw",
+            "firebaseHostingSite": "contact-list-hw"
+          }
         }
       }
     }

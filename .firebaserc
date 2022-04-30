@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "contact-list-hw": {
+      "hosting": {
+        "ContactList-Routing": [
+          "contact-list-hw"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "contact-list-hw"
+  }
+}

@@ -13,6 +13,9 @@ import { ContactFillComponent } from './components/contact-fill/contact-fill.com
 import { FormsModule } from '@angular/forms';
 import { WeatherPipe } from './pipes/weather.pipe';
 import { AddContactComponent } from './pages/add-contact/add-contact.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,7 @@ import { AddContactComponent } from './pages/add-contact/add-contact.component';
     WeatherPipe,
     AddContactComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, provideFirebaseApp(() => initializeApp(environment.firebase)), provideFirestore(() => getFirestore())],
   providers: [],
   bootstrap: [AppComponent],
 })
